@@ -14,8 +14,11 @@ body{
 
 header{
 
-    position:absolute;
+    position:fixed;
+
     top:0;
+    left:0;
+
     width:100%;
 
     display:flex;
@@ -24,10 +27,15 @@ header{
 
     padding:18px 50px;
 
-    z-index:100;
-    color:white;
-}
+    background:rgba(15,15,15,0.55);
 
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    z-index:1000;
+}
 .logo{
     display:flex;
     flex-direction:column;
