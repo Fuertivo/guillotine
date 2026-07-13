@@ -29,10 +29,24 @@ header{
 }
 
 .logo{
+    display:flex;
+    flex-direction:column;
+    line-height:1;
+}
 
+.logo-title{
     font-family:'Cinzel',serif;
     font-size:30px;
     letter-spacing:2px;
+    color:white;
+}
+
+.logo-subtitle{
+    font-size:11px;
+    letter-spacing:4px;
+    color:#d8d8d8;
+    margin-top:4px;
+    text-transform:uppercase;
 }
 
 nav{
@@ -159,7 +173,7 @@ nav a{
 
     display:grid;
 
-    grid-template-columns:2fr 1fr;
+    grid-template-columns:1.8fr 1.2fr;
 
     gap:40px;
 
