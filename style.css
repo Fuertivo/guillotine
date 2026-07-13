@@ -328,3 +328,31 @@ nav a{
 
     transform:scale(1.1);
 }
+
+.team-button{
+
+    display:inline-block;
+
+    margin-top:22px;
+
+    background:#b18a4c;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:5px;
+
+    font-weight:500;
+
+    transition:.25s;
+}
+
+.team-button:hover{
+
+    background:#9b7640;
+
+    transform:translateY(-2px);
+}
