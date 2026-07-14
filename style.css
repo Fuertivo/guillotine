@@ -364,3 +364,45 @@ nav a{
 
     transform:translateY(-2px);
 }
+
+
+/*   MOBILE
+
+
+@media (max-width:768px){
+
+    /* ---------- Header ---------- */
+
+    header{
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        padding:18px;
+
+        gap:15px;
+    }
+
+    nav{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+    }
+
+    .logo-title{
+
+        font-size:26px;
+    }
+
+    .logo-subtitle{
+
+        font-size:10px;
+
+        letter-spacing:3px;
+    }
+
+}
