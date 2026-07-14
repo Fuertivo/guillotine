@@ -291,6 +291,8 @@ nav a{
     flex-shrink:0;
 
     overflow: hidden;
+
+    object-fit: cover;
 }
 
 .team-info{
