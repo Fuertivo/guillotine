@@ -298,6 +298,19 @@ nav a{
     object-fit: cover;
 }
 
+.team-image-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex-shrink:0;
+}
+
 .team-info{
 
     display:flex;
@@ -347,8 +360,6 @@ nav a{
 .team-button{
 
     display:inline-block;
-
-    margin-top:22px;
 
     background:#b18a4c;
 
