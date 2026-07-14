@@ -385,14 +385,49 @@ nav a{
     display: none;
 }
 
-@media (max-width: 768px) {
+/* ---------------- Mobile Responsive Styles ---------------- */
 
-    .menu-toggle{
+@media (max-width: 768px) {
+    .menu-toggle {
         display: block;
     }
 
-    nav{
-    display: none;
+
+    nav {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        width: 100%;
+        background: rgba(15, 15, 15, 0.95); 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 20px;
+        gap: 20px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+        align-items: center;
     }
 
+    nav.active {
+        display: flex;
+    }
+
+    .preview {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .team-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
 }
