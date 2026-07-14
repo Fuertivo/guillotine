@@ -391,4 +391,8 @@ nav a{
         display: block;
     }
 
+    nav{
+    display: none;
+}
+
 }
