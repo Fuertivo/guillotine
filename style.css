@@ -270,12 +270,15 @@ nav a{
 }
 
 .team-content{
-
-    display:flex;
-
-    gap:25px;
-
-    align-items:center;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    gap: 25px;
+    
+    align-items: center;
+    
 }
 
 .team-placeholder{
