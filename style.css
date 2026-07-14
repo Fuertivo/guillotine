@@ -366,43 +366,17 @@ nav a{
 }
 
 
-/*   MOBILE
+.menu-toggle{
 
+    display:none;
 
-@media (max-width:768px){
+    background:none;
 
-    /* ---------- Header ---------- */
+    border:none;
 
-    header{
+    color:white;
 
-        flex-direction:column;
+    font-size:30px;
 
-        justify-content:center;
-
-        padding:18px;
-
-        gap:15px;
-    }
-
-    nav{
-
-        flex-wrap:wrap;
-
-        justify-content:center;
-
-        gap:15px;
-    }
-
-    .logo-title{
-
-        font-size:26px;
-    }
-
-    .logo-subtitle{
-
-        font-size:10px;
-
-        letter-spacing:3px;
-    }
-
+    cursor:pointer;
 }
