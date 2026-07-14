@@ -430,4 +430,13 @@ nav a{
     .social-icons {
         justify-content: center;
     }
+    
+    .hero-content {
+        margin-top: 40px; 
+    }
+    
+    .hero h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
 }
