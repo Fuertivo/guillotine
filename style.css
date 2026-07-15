@@ -271,9 +271,9 @@ nav a{
 
 .team-content{
     
-    display: flex !important;
+    display: flex;
     
-    flex-direction: row !important;
+    flex-direction: row;
     
     gap: 25px;
     
@@ -449,6 +449,7 @@ nav a{
     .preview {
         grid-template-columns: 1fr;
         gap: 30px;
+        padding:0 15px;
     }
 
     .cards {
